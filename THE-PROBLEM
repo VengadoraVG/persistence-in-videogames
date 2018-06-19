@@ -1,3 +1,10 @@
-PlayerPrefs.DeleteAll() ;)
+los json son súper poderosos e indoloros ;)
 
-PROBLEMA: quiero recordar la posición en la que se quedó el jugador al salir del juego... cómo lo hago?
+
+RETOS:
+
+Ahora las frutas pueden moverse! implementa el movimiento de las frutas... haz que intenten escapar del personaje :O (acabo de añadir la animación "fruit walking"... añádela al animator y haz el código ^^).
+
+Ahora quiero que las frutas recuerden su posición cuando el jugador sale del juego.. ¿Cómo lo hago?
+
+Si tengo múltiples niveles... cómo hago para que las frutas del nivel A no se confundan con las frutas del nivel B?

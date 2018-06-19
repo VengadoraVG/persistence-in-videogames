@@ -814,6 +814,7 @@ GameObject:
   - component: {fileID: 1394321261}
   - component: {fileID: 1394321262}
   - component: {fileID: 1394321263}
+  - component: {fileID: 1394321264}
   m_Layer: 0
   m_Name: character
   m_TagString: Untagged
@@ -871,6 +872,18 @@ MonoBehaviour:
   pointOfView: {fileID: 1447133862}
   characterPrototype: {fileID: 1954457777289322, guid: cca899035414309479eb8e9d2c0e78a8,
     type: 2}
+--- !u!114 &1394321264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394321260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccd2d0fe3c8b5b439a5ec566ff971db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToAutoSave: 5
 --- !u!1 &1434619114
 GameObject:
   m_ObjectHideFlags: 0
