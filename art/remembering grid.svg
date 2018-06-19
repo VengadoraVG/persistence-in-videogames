@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="277.4329528808594mm"
-   height="277.4329528808594mm"
-   viewBox="0 0 277.4329528808594 277.4329528808594"
+   width="554.2044067382812mm"
+   height="554.2044677734375mm"
+   viewBox="0 0 554.204406738281 554.2044677734375"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
@@ -22,7 +22,7 @@
   <defs
      id="defs2">
     <filter
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        inkscape:label="Colorize"
        id="filter6227">
       <feComposite
@@ -31,7 +31,9 @@
          k1="0"
          k2="1"
          result="composite1"
-         id="feComposite6213" />
+         id="feComposite6213"
+         k3="0"
+         k4="0" />
       <feColorMatrix
          in="composite1"
          values="1"
@@ -64,7 +66,6 @@
          in="colormatrix2"
          in2="SourceGraphic"
          operator="in"
-         k2="1"
          result="composite2"
          id="feComposite6225" />
     </filter>
@@ -78,7 +79,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.3059082034478158"
      inkscape:cx="1118.244571448319"
-     inkscape:cy="276.7382857540446"
+     inkscape:cy="1322.803711236368"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -103,7 +104,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(5.736423110961917,-16.65437345504756)">
+     transform="translate(5.736423110961917,-16.65437345504767)">
     <g
        id="g5561">
       <rect
