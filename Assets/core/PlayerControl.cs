@@ -13,6 +13,9 @@ public class PlayerControl : MonoBehaviour {
     private Animator _charAnimator;
 
     void Start () {
+        characterPrototype = GameObject.FindWithTag("GameController").
+            GetComponent<RememberCharacter>().ingameCharacterPrototype;
+
         _character = Instantiate(characterPrototype);
         _character.transform.parent = this.transform;
         _character.transform.localPosition = new Vector3(0,0,0);

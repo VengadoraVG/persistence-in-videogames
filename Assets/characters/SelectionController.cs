@@ -28,6 +28,11 @@ public class SelectionController : MonoBehaviour {
         _SetActive(availableCharacters[_current], false);
         _current = index;
         _SetActive(availableCharacters[_current], true);
+
+        GameObject.FindWithTag("GameController").
+            GetComponent<RememberCharacter>().
+            ingameCharacterPrototype = availableCharacters[_current].
+            GetComponent<AvailableCharacter>().ingamePrototype;
     }
 
     public void Next () {
