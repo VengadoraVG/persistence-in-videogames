@@ -6,6 +6,9 @@ public class Reseter : MonoBehaviour {
     public bool reset = false;
 
     void Start () {
-        PlayerPrefs.DeleteAll();
+        if (reset) {
+            PlayerPrefs.DeleteAll();
+            reset = false;
+        }
     }
 }
