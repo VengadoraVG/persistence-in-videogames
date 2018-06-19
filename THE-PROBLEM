@@ -1,5 +1,3 @@
-Podemos usar una propiedad estática que indique la cantidad de frutas instanciadas... y en cada start lo incrementamos en uno, y le asignamos un id con ese número a cada fruta :D
+PlayerPrefs.DeleteAll() ;)
 
-Le ponemos el identificador "fruit" por si más adelante queremos guardar otras cosas que no son frutas... si lo dejáramos en "0" o "5", más adelante podríamos querer poner cajas, o espinas, o cualquier otra cosa, y sus ids se confundirían.
-
-PROBLEMA: me comí todas las frutas... ahora cómo debugueo? D:
+PROBLEMA: quiero recordar la posición en la que se quedó el jugador al salir del juego... cómo lo hago?
