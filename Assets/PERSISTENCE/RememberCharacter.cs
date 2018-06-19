@@ -3,9 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class RememberCharacter : MonoBehaviour {
+    public static bool created = false;
+
     public GameObject ingameCharacterPrototype;
 
     void Start () {
-        DontDestroyOnLoad(this.gameObject);
+        if (!created) {
+            DontDestroyOnLoad(this.gameObject);
+            created = true;
+        }
     }
 }

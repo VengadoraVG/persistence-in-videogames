@@ -1,5 +1,1 @@
-Es el primer paso hacia la solución! :D
-
-Dont destroy on load hace que el objeto no se destruya cuando cambiamos de escenas... pero hay un problema... si volvemos a la escena de selección de personajes, entonces vamos a tener a varios game objects PERSISTENT GAME CONTROLLER.
-
-¿Cómo solucionamos esto?
+una buena forma de hacerlo es con una variable estática que indique si el controlador del juego ya ha sido creado ;)
