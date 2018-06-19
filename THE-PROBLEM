@@ -1,1 +1,1 @@
-Qué pasa si queremos recordar la cantidad de frutas que el jugador comió para el siguiente juego?
+Como ven... es sencillo... es justo como la persistencia de 121... básicamente lo tiramos todo en un archivo, y luego lo leemos :D
