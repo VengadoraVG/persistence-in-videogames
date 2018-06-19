@@ -1,1 +1,1 @@
-una buena forma de hacerlo es con una variable estática que indique si el controlador del juego ya ha sido creado ;)
+Qué pasa si queremos recordar la cantidad de frutas que el jugador comió para el siguiente juego?
