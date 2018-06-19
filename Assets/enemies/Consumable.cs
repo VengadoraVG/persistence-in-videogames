@@ -6,6 +6,7 @@ public class Consumable : MonoBehaviour {
     void OnTriggerEnter (Collider c) {
         GetComponent<Animator>().SetTrigger("get eaten");
         GetComponent<Collider>().enabled = false; // se asegura de que solo lo puedan comer 1 vez
+        GetComponent<RememberConsumableState>().Remember();
         StartCoroutine(_EventuallyDie());
     }
 

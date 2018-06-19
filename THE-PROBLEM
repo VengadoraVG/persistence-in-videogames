@@ -1,25 +1,5 @@
-¿Qué pasa si queremos recordar cuáles frutas ya fueron comidas?
+Podemos usar una propiedad estática que indique la cantidad de frutas instanciadas... y en cada start lo incrementamos en uno, y le asignamos un id con ese número a cada fruta :D
 
-Esto es un poco más difícil. Antes sólamente teníamos que recordar un valor... ahora tenemos que recordar un valor por cada fruta en la escena... y si ponemos una fruta nueva, nuestros scripts deberían funcionar sin ningún esfuerzo adicional.
+Le ponemos el identificador "fruit" por si más adelante queremos guardar otras cosas que no son frutas... si lo dejáramos en "0" o "5", más adelante podríamos querer poner cajas, o espinas, o cualquier otra cosa, y sus ids se confundirían.
 
-Lo que muchos sugieren aquí es usar la posición del objeto (serializada de alguna forma... ya sea como json:
-
-PlayerPrefs.SetBool(JsonUtility.ToJson(this.transform.position), true);
-
-o de cualquier otra forma:
-
-    PlayerPrefs.SetBool(this.transform.position.x + "," + this.transform.position.y + "," + this.transform.position.z, true);
-
-y luego, en el start, "recuperar" estos valores de alguna forma, algo así para jsons:
-
-    this.wasConsumed = PlayerPrefs.GetBool(JsonUtility.ToJson(this.transform.position))
-
-o así, si no se usa jsons:
-
-    PlayerPrefs.GetBool(this.transform.position.x + "," + this.transform.position.y + "," + this.transform.position.z);
-
-Pero... aunque parece una solución tentadora, no la recomiendo porque no es poco probable que, por error, o por alguna artimaña de programación, necesitemos que dos objetos ocupen el mismo lugar :O
-
-Intenta pensar en otra solución! :D
-
-HINT: recuerda que el orden de ejecución no es aleatorio ni concurrente.
+PROBLEMA: me comí todas las frutas... ahora cómo debugueo? D:
