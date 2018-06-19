@@ -6,8 +6,10 @@ public class RememberPlayerPosition : MonoBehaviour {
     public float timeToAutoSave = 5;
 
     void Start () {
-        transform.position =
-            JsonUtility.FromJson<Vector3>(PlayerPrefs.GetString("playerPosition"));
+        if (PlayerPrefs.HasKey("playerPosition")) {
+            transform.position =
+                JsonUtility.FromJson<Vector3>(PlayerPrefs.GetString("playerPosition"));
+        }
         StartCoroutine(_AutoSave());
     }
 
